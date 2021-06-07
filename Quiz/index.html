@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font Awesome Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="chat-contacts-container">
+                <div class="search-messages-container">
+                    <div class="inner-container">
+                        <div class="search-messages">Search Messages</div>
+                        <div>
+                            <input class="search-messages-input" type="text" placeholder="Type & Hit Enter ..." />
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-contacts">
+                    <div class="header">
+                        <div class="recent-talks">Recent Talks</div>
+                        <div class="options">
+                            <div class="dropdown">All</div>
+                            <div class="dropdown-icon-container">
+                                <img src="./img/dropdown.png" class="dropdown-icon" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-chats">
+                        <div class="recent-chat-container">
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-1"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element unread">
+                                        <div class="name">Amy Adams</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-2"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status offline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element unread">
+                                        <div class="name">Dwayne Johnson</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container active">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-3"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Joe Biden</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-4"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status recently-online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Elon Musk</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-5"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status unavailable"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Naomi Johnson</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                            <div class="answered-by">answered by bot</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-6"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status recently-online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Christina Stark</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-7"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Keanu Reeves</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-8"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status offline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Adrianne Pilaki</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-9"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status recently-online"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">Alfie Allen</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-chat-container">
+                                <div class="single-chat">
+                                    <div class="photo-container">
+                                        <div class="photo-outer">
+                                            <div class="photo photo-10"></div>
+                                        </div>
+                                        <div class="active-status-container">
+                                            <div class="active-status offline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="chat-element">
+                                        <div class="name">William Dafoe</div>
+                                        <div class="message">Can you please send me</div>
+                                        <div class="time-and-answered-by">
+                                            <div class="time">02:19 pm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-container">
+                <div class="header">
+                    <div class="photo-container">
+                        <div class="photo-outer">
+                            <div class="photo"></div>
+                        </div>
+                    </div>
+                    <div class="name-container">
+                        <div class="name">Joe Biden</div>
+                    </div>
+                </div>
+                <div class="conversation-outer-container">
+                    <div class="conversation-inner-container">
+                        <div class="conversation">
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Hey Nahid, how's everything going?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">30 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Excellent. How's everything at your end?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">28 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Good as well. I have some interesting documents to show you. You asked me about Area 51, remember?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">26 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Yeah! I've heard lots of things about this area. Some people say that there are aliens inside. Is it true?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="answered-by">answered by bot</div>
+                                                    <div class="conversation-time">24 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Well, you can check by yourself. Read this document.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">22 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="text-file">
+                                                    <div class="file-icon">
+                                                        <i class="fa fa-file-archive-o"></i>
+                                                    </div>
+                                                    <div class="file-name">Document.zip</div>
+                                                </div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">20 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Whoa! Are all of these true?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">18 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Yeah! This document is a case study reported by the CIA. Also here is a a call record of me talking to the head of the CIA regarding this matter.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">16 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="audio-file">
+                                                    <div class="file-icon">
+                                                        <i class="fa fa-play-circle"></i>
+                                                    </div>
+                                                    <div class="file-body"></div>
+                                                    <div class="file-length">08:22</div>
+                                                </div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">14 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Cool! What are you going to do about it?</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">12 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Check this video. You'll understand by yourself.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">10 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="video-file">
+                                                    <div class="file-icon">
+                                                        <i class="fa fa-play-circle"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">8 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Omg! I couldn't have imagined these. People really know very little about this area. Most of the stories are just rumors.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">6 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="conversation-wrapper">
+                                    <div class="reply">
+                                        <div class="conversation-element">
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Look! I must remind you, these are very confidential documents. Please make sure no one has access to these documents.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">4 min ago</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="whitespace"></div>
+                            </div>
+                            <div class="single-conversation-container">
+                                <div class="whitespace"></div>
+                                <div class="conversation-wrapper">
+                                    <div class="own">
+                                        <div class="conversation-element">
+                                            <div class="conversation-text-and-time">
+                                                <div class="conversation-text">Of course. I have taken precautions already. Some people may see our conversation. But they won't be able to open or play the files, don't worry.</div>
+                                                <div class="conversation-time-container">
+                                                    <div class="conversation-time">just now</div>
+                                                    <div class="delivery-status">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="photo-container">
+                                                <div class="photo-outer">
+                                                    <div class="photo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reply-box">
+                    <div class="paperclip-and-emoji-container">
+                        <div class="paperclip-container">
+                            <i class="paperclip fa fa-paperclip"></i>
+                        </div>
+                        <div class="emoji-container">
+                            <img class="emoji" src="./img//emoji.png" />
+                        </div>
+                    </div>
+                    <input class="reply-input" type="text" placeholder="Type a Message ..." />
+                    <div class="paper-plane-container">
+                        <i class="paper-plane fa fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
